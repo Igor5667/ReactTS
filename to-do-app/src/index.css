@@ -1,5 +1,21 @@
 body{
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #ebbeaf;
+}
+::-webkit-scrollbar-thumb {
+  background: #ab13fc4b;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aa13fca0;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #9b02edd2;
+}

@@ -1,14 +1,15 @@
 .date{
     font-size: 1.8em;
     margin: 17px 0 12px 0;
-    color: rgb(132, 0, 255);
+    color: #8400ff;
+    font-weight: bold;
 }
 .side-date{
     font-size: 0.65em;
     margin: 0 14px;
-    color: rgb(152, 42, 255);
+    color: #982aff;
 }
 .further-side-date{
     font-size: 0.42em;
-    color: rgb(172, 87, 252);
+    color: #ac57fc;
 }

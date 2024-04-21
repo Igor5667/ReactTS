@@ -7,7 +7,7 @@ body {
   font-size: 1.8em;
   font-family: "Comic Sans MS";
   text-align: center;
-  color: rgb(128, 1, 156);
+  color: #80019c;
 }
 
 .main-container {
@@ -15,11 +15,23 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border: solid black 5px;
   border-radius: 20px;
-  margin: 40px;
+  margin: 40px 90px;
   padding: 0 30px 30px 30px;
 }
 
 .title{
   margin-bottom: 14px;
-  
+}
+
+button{
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  border-radius: 9px;
+  border: #8100c6 solid 2.7px;
+  color: #8100c6;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,6 +1,6 @@
 import './GetDate.css'
 
-const getDate = (nextOrPreviousDay:number) => {
+const getDate = (nextOrPreviousDay:number = 0) => {
     const date: Date = new Date()
     const day: number = date.getDate() + nextOrPreviousDay
     const month: number = date.getMonth()+1
@@ -9,13 +9,13 @@ const getDate = (nextOrPreviousDay:number) => {
 
 function GetDate(){
     return (
-        <h2 className='date'>
-            <span className='further-side-date'>{getDate(-2)}</span>
-            <span className='side-date'>{getDate(-1)}</span>
-            {getDate(0)}
-            <span className='side-date'>{getDate(1)}</span>
-            <span className='further-side-date'>{getDate(2)}</span>
-        </h2>
+        <nav className='date'>
+            <span className='further-side-date' >{getDate(-2)}</span>
+            <span className='side-date'         >{getDate(-1)}</span>
+            <span className='current-date'      >{getDate()  }</span>
+            <span className='side-date'         >{getDate(1) }</span>
+            <span className='further-side-date' >{getDate(2) }</span>
+        </nav>
     )
 }
 
